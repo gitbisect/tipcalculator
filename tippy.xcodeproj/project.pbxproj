@@ -14,6 +14,7 @@
 		5B8057AC1E6CF99800854F9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B8057AA1E6CF99800854F9A /* LaunchScreen.storyboard */; };
 		5B8057B71E6CF99800854F9A /* tippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8057B61E6CF99800854F9A /* tippyTests.swift */; };
 		5B8057C21E6CF99800854F9A /* tippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8057C11E6CF99800854F9A /* tippyUITests.swift */; };
+		5B8057D01E6D3EBA00854F9A /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B8057CF1E6D3EBA00854F9A /* SettingsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5B8057BD1E6CF99800854F9A /* tippyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tippyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5B8057C11E6CF99800854F9A /* tippyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tippyUITests.swift; sourceTree = "<group>"; };
 		5B8057C31E6CF99800854F9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B8057CF1E6D3EBA00854F9A /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		5B8057951E6CF99700854F9A = {
 			isa = PBXGroup;
 			children = (
+				5B8057CF1E6D3EBA00854F9A /* SettingsViewController.swift */,
 				5B8057A01E6CF99800854F9A /* tippy */,
 				5B8057B51E6CF99800854F9A /* tippyTests */,
 				5B8057C01E6CF99800854F9A /* tippyUITests */,
@@ -264,6 +267,7 @@
 			files = (
 				5B8057A41E6CF99800854F9A /* ViewController.swift in Sources */,
 				5B8057A21E6CF99800854F9A /* AppDelegate.swift in Sources */,
+				5B8057D01E6D3EBA00854F9A /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
