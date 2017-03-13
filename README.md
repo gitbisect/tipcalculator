@@ -17,18 +17,19 @@ The following **optional** features are implemented:
 * [ ] UI animations
 * [ ] Remembering the bill amount across app restarts (if <10mins)
 * [ ] Using locale-specific currency and currency thousands separators.
-* [ ] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
+* [X] Making sure the keyboard is always visible and the bill amount is always the first responder. This way the user doesn't have to tap anywhere to use this app. Just launch the app and start typing.
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
-* A 'clear' button (the little x) shows up when editing the bill amount.
+* [X] Made a new background color for the TipControllerView and a slightly different one for the Settings View.
+* [X] Made the bill amount filed bigger font without borders and made the fields background automatically match any view background color
+* [X] In the settings added a fun message depending on the value of the chosen default tip amount.
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/cWsb0x2.gif' title="John's Tip Calculator Video Walkthrough" width='' alt="John's Tip Calculator Video Walkthrough" />
+<img src='http://i.imgur.com/oSJ4AOU.gif' title="John's Tip Calculator Video Walkthrough" width='' alt="John's Tip Calculator Video Walkthrough" />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
