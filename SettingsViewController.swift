@@ -11,6 +11,7 @@ import UIKit
 class SettingsViewController: UIViewController {
 
     @IBOutlet weak var tipControl: UISegmentedControl!
+    @IBOutlet weak var msgLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,8 +34,24 @@ class SettingsViewController: UIViewController {
         defaults.set(selectedSegmentIndex, forKey: "defaultTipPercentage")
         defaults.synchronize()
 
+        switch tipControl.selectedSegmentIndex {
+        case 0:
+            msgLabel.text = "You are Awesome!"
+        case 1:
+            msgLabel.text = "That is Stupendous!"
+        case 2:
+            msgLabel.text = "Outstanding! You should win the Nobel Prize!"
+        default:
+            msgLabel.text = ""
+
+        }
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+        msgLabel.text = ""
+    }
     
 
     /*
